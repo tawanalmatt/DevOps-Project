@@ -4,7 +4,7 @@ pipeline{
         stage("Git checkout"){
             steps{
                 echo "====++++executing checkout++++===="
-                git 'https://github.com/njokuifeanyigerald/tawana.git'
+                git 'https://github.com/tawanalmatt/DevOps-Project.git'
             }
             post{
                 success{
